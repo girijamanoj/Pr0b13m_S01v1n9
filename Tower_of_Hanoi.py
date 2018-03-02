@@ -1,3 +1,4 @@
+'''Write a programme to preview the moves in Tower of hanoi'''
 def steps_of_hanoi(n,x,y,z):
     i=1
     if n==1:
