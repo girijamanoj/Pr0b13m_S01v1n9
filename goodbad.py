@@ -1,3 +1,4 @@
+""" Good Bad Sum"""
 n=int(input())
 for i in range(n):
     n,k=map(int, input().split())
@@ -17,5 +18,5 @@ for i in range(n):
         print("brother")
     else :
         print("none")
-    
+""" Gopa Vasanth """
     
