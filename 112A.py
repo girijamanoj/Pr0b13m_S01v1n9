@@ -1,3 +1,5 @@
+"""this is a codeforces problem
+http://codeforces.com/problemset/problem/112/A"""
 n=input()
 m=input()
 n,m=n.lower(),m.lower()
