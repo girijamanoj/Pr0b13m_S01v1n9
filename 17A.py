@@ -1,11 +1,8 @@
-n,m=input().split()
-n,m=int(n),int(m)
+n,m=map(int,input().split())
 l=[]
-k=0
-count=0
+k,count = 0,0
 for i in range(2,n+1):
-    d=0
-    e=0
+    d,e = 0,0
     for j in range(2,i):
         if i%j==0:
             d=1
@@ -22,9 +19,4 @@ for i in range(2,n+1):
                     break
     if count>=m:
                     break
-        
-           
-if len(l)<m or count<m:
-    print("NO")
-else:
-    print("YES")
+    print("YENOS"[::len(l)<m or count<m])
