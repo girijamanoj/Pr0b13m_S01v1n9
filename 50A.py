@@ -1,3 +1,2 @@
-n,m=input().split()
-n,m=int(n),int(m)
+n,m=map(int,input().split())
 print((n*m)//2)
