@@ -1,4 +1,4 @@
-n,m=input().split()
+n,m=input().split() #taking input n and m at a time.
 n,m=int(n),int(m)
 l=[]
 
