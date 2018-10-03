@@ -1,5 +1,5 @@
 l=[]
-g=[]
+g=[] #empty list
 for i in range(3):
     l.append(input())
 for i in range(3):
