@@ -1,5 +1,5 @@
 n = int(input())
-m = int(input())
+m = int(input())#taking input as integer
 a = []
 t = m-1
 for i in range(1,n+1):
