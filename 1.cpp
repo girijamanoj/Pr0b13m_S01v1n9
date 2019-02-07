@@ -7,6 +7,6 @@ int main(void)
 	int *b;
 	b = &a;
 	
-return 0;
+return 0;//this is return statement
 }
 
