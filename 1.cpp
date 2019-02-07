@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 int a = 10;
-int main()
+int main(void)
 {
 	using namespace std;
 	int a = 15;
