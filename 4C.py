@@ -1,9 +1,10 @@
-n=int(input())
-l=[]
-a=[]
+d = dict()
+n = int(input())
 for i in range(n):
-    l.append(input())
-s=list(set(l))
-for i in range(len(s)):
-    a.append(0)
-for i in range(
+	s = input()
+	if s in d:
+		d[s] += 1
+		print(s + str(d[s]))
+	else:
+		d[s] = 0
+		print("OK")
