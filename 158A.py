@@ -1,5 +1,5 @@
 n,m=input().split()
-n,m=int(n),(int(m)-1)
+n,m=int(n),(int(m)-1)#typecasting the input
 l=list(map(int,input().split()))
 count=0
 for i in range(len(l)):
