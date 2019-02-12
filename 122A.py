@@ -1,6 +1,13 @@
-s=[4,7,47,74,477]
-n=int(input())
-if any(n%i==0 for i in s):
-	print("YES")
+k=int(input())
+d=0
+if str(k).count('4')+str(k).count('7')==len(str(k)):
+    print("YES")
+    d=1
 else:
-	print("NO")
+    for i in range(k):
+        if str(i).count('4')+str(i).count('7')==len(str(i)) and k%i==0:
+            print("YES")
+            d=1
+            break
+if d==0:
+    print("NO")

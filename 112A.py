@@ -1,8 +1,6 @@
-"""this is a codeforces problem
-http://codeforces.com/problemset/problem/112/A"""
 n=input()
 m=input()
-n,m=n.lower(),m.lower() #Changes upper case letters to lower case letters
+n,m=n.lower(),m.lower()
 d=0
 for i in range(len(n)):
     if n[i]<m[i]:

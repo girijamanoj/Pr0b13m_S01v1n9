@@ -1,7 +1,7 @@
 n=int(input())
 l=list(map(int,input().split()))
 l.sort()
-l.reverse() #Reverses the list
+l.reverse()
 x=sum(l)
 count=0
 p=0
