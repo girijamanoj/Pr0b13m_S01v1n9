@@ -1,8 +1,6 @@
-a,b=map(int,input().split())
-#print(a,b)
+n,m=map(int,(input().split()))
 l=[]
-for i in range(a):
-    m,n=map(int,input().split())
-    l.append((m/n)*b)
-print(min(l))
-    
+for i in range(n):
+    p,q=map(int,(input().split()))
+    l.append(p/q)
+print(min(l)*m)
